@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fashion Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="new_style.css" rel="stylesheet">
+  <a href="data.html"></a>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="navbar-brand" href="#"><img src="Pics/zando-logo-small.png" class="navbar-logo" /></a>
+
+      <!-- Desktop Menu -->
+      <div class="d-none d-lg-flex align-items-center" id="desktopMenu">
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item dropdown position-static">
+              <a class="nav-link" href="#" role="button" style=" font-family: 'Raleway', sans-serif;">WOMEN</a>
+              <div class="dropdown-mega container-fluid">
+                <div class="row">
+                  <div class="col">
+                    <!-- <h6>Clothing</h6>
+                  <a class="dropdown-item" href="#">All</a>
+                  <a class="dropdown-item" href="#">Jeans</a>
+                  <a class="dropdown-item" href="#">Tops</a>
+                  <a class="dropdown-item" href="#">Dresses</a>
+                  <a class="dropdown-item" href="#">Sportwear</a> -->
+                  </div>
+                  <div class="col">
+                    <h6>Clothing</h6>
+                    <a class="dropdown-item" href="NewInWomenAll.html">All</a>
+                    <a class="dropdown-item" href="#">Jeans</a>
+                    <a class="dropdown-item" href="#">Tops</a>
+                    <a class="dropdown-item" href="#">Dresses</a>
+                    <a class="dropdown-item" href="#">Sportwear</a>
+                  </div>
+                  <div class="col">
+                    <h6>Accessories</h6>
+                    <a class="dropdown-item" href="NewInWomenAll.html">All</a>
+                    <a class="dropdown-item" href="#">Bags</a>
+                    <a class="dropdown-item" href="#">Belts</a>
+                    <a class="dropdown-item" href="#">Caps & Hats</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown position-static">
+              <a class="nav-link fw-bold" href="#" role="button">MEN</a>
+              <div class="dropdown-mega container-fluid">
+                <div class="row">
+                  <div class="col">
+                    <!-- <h6>New In</h6>
+                  <a class="dropdown-item" href="#">All</a>
+                  <a class="dropdown-item" href="#">Lifestyle</a>
+                  <a class="dropdown-item" href="#">Casual</a>
+                  <a class="dropdown-item" href="#">Sportlife</a> -->
+                  </div>
+                  <div class="col">
+                    <h6>Clothing</h6>
+                    <a class="dropdown-item" href="NewInMenAll.html">All</a>
+                    <a class="dropdown-item" href="#">Jeans</a>
+                    <a class="dropdown-item" href="#">T-Shirt</a>
+                    <a class="dropdown-item" href="#">Sportwear</a>
+                    <a class="dropdown-item" href="#">Jackets</a>
+                  </div>
+                  <div class="col">
+                    <h6>Accessories</h6>
+                    <a class="dropdown-item" href="NewInMenAll.html">All</a>
+                    <a class="dropdown-item" href="#">Backpacks</a>
+                    <a class="dropdown-item" href="#">Belts</a>
+                    <a class="dropdown-item" href="#">Caps & Hats</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown position-static">
+              <a class="nav-link fw-bold" href="#" role="button">BOYS</a>
+              <div class="dropdown-mega container-fluid">
+                <div class="row">
+                  <div class="col">
+                    <!-- <h6>New In</h6>
+                  <a class="dropdown-item" href="#">All</a>
+                  <a class="dropdown-item" href="#">Lifestyle</a>
+                  <a class="dropdown-item" href="#">Casual</a>
+                  <a class="dropdown-item" href="#">Sportlife</a> -->
+                  </div>
+                  <div class="col">
+                    <h6>Clothing</h6>
+                    <a class="dropdown-item" href="NewInBoyAll.html">All</a>
+                    <a class="dropdown-item" href="#">T-Shirts</a>
+                    <a class="dropdown-item" href="#">Shorts</a>
+                    <a class="dropdown-item" href="#">Jackets</a>
+                  </div>
+                  <div class="col">
+                    <h6>Shoes</h6>
+                    <a class="dropdown-item" href="NewInBoyAll.html">All</a>
+                    <a class="dropdown-item" href="#">Sneakers</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown position-static">
+              <a class="nav-link fw-bold" href="#" role="button">GIRLS</a>
+              <div class="dropdown-mega container-fluid">
+                <div class="row">
+                  <div class="col">
+                    <!-- <h6>New In</h6>
+                  <a class="dropdown-item" href="#">All</a>
+                  <a class="dropdown-item" href="#">Lifestyle</a>
+                  <a class="dropdown-item" href="#">Casual</a>
+                  <a class="dropdown-item" href="#">Sportlife</a> -->
+                  </div>
+                  <div class="col">
+                    <h6>Clothing</h6>
+                    <a class="dropdown-item" href="NewInGirlAll.html">All</a>
+                    <a class="dropdown-item" href="#">Dresses</a>
+                    <a class="dropdown-item" href="#">Jeans</a>
+                    <a class="dropdown-item" href="#">Shirts</a>
+                  </div>
+                  <div class="col">
+                    <h6>Shoes</h6>
+                    <a class="dropdown-item" href="NewInGirlAll.html">All</a>
+                    <a class="dropdown-item" href="#">Sandals</a>
+                    <a class="dropdown-item" href="#">Sneakers</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="d-flex align-items-center gap-3">
+          <!-- Search Bar -->
+          <div class="position-relative">
+            <input type="text" class="form-control search-input-desktop ps-5" placeholder="Search"
+              data-bs-toggle="modal" data-bs-target="#searchModal" readonly />
+            <i class="bi bi-search position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+          </div>
+
+          <!-- Cart Icon -->
+          <a class="position-relative" data-bs-toggle="offcanvas" href="#cartOffcanvas" role="button">
+            <i class="bi bi-bag me-2 fs-5" style="color: black;"></i>
+            <span id="cart-count"
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-number fw-light">
+              0
+            </span>
+
+          </a>
+
+          <a href="#" class="cart-icon"><i class="bi bi-person-circle fs-5" style="color: black;" data-bs-toggle="modal"
+              data-bs-target="#authModal"></i></a>
+        </div>
+
+        <!-- Hamburger (Mobile Only) -->
+        <button class="navbar-toggler text-black d-lg-none" type="button" onclick="toggleMenu()">☰</button>
+      </div>
+  </nav>
+
+  <!-- Fullscreen Mobile Menu -->
+  <div class="fullscreen-menu d-lg-none" id="fullscreenMenu">
+    <div class="search-bar position-relative">
+      <input type="text" class="search-input ps-5" placeholder="Search">
+      <i class="bi bi-search position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+    </div>
+    <span class="close-btn" onclick="toggleMenu()">✖</span>
+    <ul class="text-center mt-5">
+      <li><a href="#" class="nav-link">WOMEN</a></li>
+      <li><a href="#" class="nav-link">MEN</a></li>
+      <li><a href="#" class="nav-link">BOYS</a></li>
+      <li><a href="#" class="nav-link">GIRLS</a></li>
+      <li><a href="#" class="nav-link">LOGIN</a></li>
+      <li><a href="#" class="nav-link">REGISTER</a></li>
+    </ul>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="searchModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog" style="max-width: 100%; margin: 0;">
+      <div class="modal-content border-0 rounded-0" style="height: 20vh;">
+        <div class="modal-body d-flex align-items-center justify-content-center h-100">
+          <div class="w-75 position-relative">
+            <input type="text" class="form-control border-0 border-bottom shadow-none fs-4 pe-5"
+              placeholder="What are you searching for?" autofocus>
+            <div class="position-absolute top-50 end-0 translate-middle-y me-2 d-flex gap-3">
+              <i class="bi bi-search fs-5" style="cursor:pointer;"></i>
+              <i class="bi bi-x-lg fs-5" style="cursor:pointer;" data-bs-dismiss="modal"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner Section -->
+  <div class="container-fluid p-0">
+    <div id="carouselExampleIndicators" class="carousel slide" style="margin-top: 4.5rem;">
+      <div class="carousel-inner justify-content-center align-items-center" style="max-width: 85%; margin: auto;">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active position-relative">
+          <img src="Pics/Coffee-Lover-series5.jpg" class="d-block w-100" alt="...">
+          <div
+            class="position-absolute start-50 carousel-btn-group d-flex flex-lg flex-md-row gap-3 justify-content-center align-items-center flex-row">
+            <a href="NewInMenAll.html" class="btn btn-primary fw-bold btn-carousel">SHOP MEN</a>
+            <a href="NewInWomenAll.html" class="btn btn-primary fw-bold btn-carousel">SHOP WOMEN</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item position-relative">
+          <img src="Pics/best-selling-main-hero.jpg" class="d-block w-100" alt="...">
+          <div
+            class="position-absolute start-50 carousel-btn-group d-flex flex-lg flex-md-row gap-3 justify-content-center align-items-center flex-row">
+            <a href="NewInMenAll.html" class="btn btn-primary fw-bold btn-carousel">SHOP NOW</a>
+            <!-- <a href="#learn" class="btn btn-primary fw-bold btn-carousel">Learn More</a> -->
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item position-relative">
+          <img src="Pics/Zando_Main (2160x1066).png" class="d-block w-100" alt="...">
+          <div
+            class="position-absolute start-50 carousel-btn-group d-flex flex-lg flex-md-row gap-3 justify-content-center align-items-center flex-row">
+            <a href="NewInMenAll.html" class="btn btn-primary fw-bold btn-carousel">SHOP NOW</a>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item position-relative">
+          <img src="Pics/Main-banner-Ctrl-Z(App).jpg" class="d-block w-100" alt="...">
+          <div
+            class="position-absolute start-50 carousel-btn-group d-flex flex-lg flex-md-row gap-3 justify-content-center align-items-center flex-row">
+            <a href="NewInWomenAll.html" class="btn btn-primary fw-bold btn-carousel">SHOP NOW</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev" style="padding-left: 50px;">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next" style="padding-right: 50px;">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+  <!-- Brands Section -->
+  <div class="container-fluid text-center py-0" data-aos="fade-up">
+    <div class="row row-cols-5 justify-content-center align-items-center gx-4">
+      <div class="col col-md-2">
+        <img src="Pics/zando-3.png" class="img-fluid w-100 " style="max-width: 180px;" alt="Brand 1">
+      </div>
+      <div class="col col-md-2">
+        <img src="Pics/TEN11.png" class="img-fluid w-100" style="max-width: 180px;" alt="Brand 2">
+      </div>
+      <div class="col col-md-2">
+        <img src="Pics/gatoni.png" class="img-fluid w-100" style="max-width: 180px;" alt="Brand 3">
+      </div>
+      <div class="col col-md-2">
+        <img src="Pics/routine.png" class="img-fluid w-100" style="max-width: 180px;" alt="Brand 4">
+      </div>
+      <div class="col col-md-2">
+        <img src="Pics/361.png" class="img-fluid w-100" style="max-width: 180px;" alt="Brand 5">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Collections Section -->
+  <div class="container py-0">
+    <div class="row g-5" data-aos="zoom-in">
+      <div class="col-6 col-md-4">
+        <div class="position-relative overflow-hidden shadow-sm">
+          <img src="Pics/lifetsyle.w.png" class="img-fluid" alt="Collection">
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="position-relative overflow-hidden shadow-sm">
+          <img src="Pics/sportlife.w.png" class="img-fluid" alt="Collection">
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="position-relative overflow-hidden shadow-sm">
+          <img src="Pics/8-1.png" class="img-fluid" alt="Collection">
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="position-relative overflow-hidden shadow-sm">
+          <img src="Pics/lifestyle.m.png" class="img-fluid" alt="Collection">
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="position-relative overflow-hidden shadow-sm">
+          <img src="Pics/sportlife.m.png" class="img-fluid" alt="Collection">
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="position-relative overflow-hidden shadow-sm">
+          <img src="Pics/7-1.png" class="img-fluid" alt="Collection">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- New Arrival Section -->
+  <div class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h5 style="font-size: 2rem;">New Arrival!</h5>
+      <a href="#" class="text-decoration-none small" style="font-size: 1.2rem; color: black;">Shop More</a>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper" data-aos="zoom-in">
+        <!-- Product Card 1 -->
+        <div class="swiper-slide">
+          <a href="data.html?id=1" style="text-decoration: none;">
+
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/women/a5.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger" style="font-size: 1.1rem;">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Asymmetrical Fitted T-shirt</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=3" style="text-decoration: none;">
+
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/women/b1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Slim Fit Mini Dresses</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=5" style="text-decoration: none;">
+
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/women/c1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Slim Fit T-Shirt</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=7" style="text-decoration: none;">
+
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/women/d1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Mini Skirt</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=9" style="text-decoration: none;">
+
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/bb/bb1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Regular Fit Jacket</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=10" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/cc/cc1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Sport Life UV-Windbreaker</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=11" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/dd/dd3.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Loose Fit Denim Jackets</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=12" style="text-decoration: none;">
+
+
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/ee/ee1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Black Mini Mesh Dresses</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=21" style="text-decoration: none;">
+
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/u/u1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Sport Life Short Sleeves T-Shirt</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=22" style="text-decoration: none;">
+
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/v/v1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Mesh Jersey T-Shirt</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=23" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/w/w1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Unisex-Café Boxy T-Shirt</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=24" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/x/x1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Relaxed T-Shirt With Printed</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Navigation buttons -->
+      <div class="swiper-button-next swiper-button-next::after fw-bold"
+        style="color: white; padding: 25px; background-color: rgba(0, 0, 0, 0.405); border-radius: 50%;"></div>
+      <div class="swiper-button-prev swiper-button-prev::after fw-bold"
+        style="color: white; padding: 25px; background-color: rgba(0, 0, 0, 0.405); border-radius: 50%;"></div>
+    </div>
+  </div>
+
+  <!-- Current Trending Section -->
+  <div class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h5 style="font-size: 2rem;">New Arrival!</h5>
+      <a href="#" class="text-decoration-none small" style="font-size: 1.2rem; color: black;">Shop More</a>
+    </div>
+
+    <!-- Swiper -->
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper" data-aos="zoom-in">
+        <!-- Product Card 1 -->
+        <div class="swiper-slide">
+          <a href="data.html?id=13" style="text-decoration: none;">
+            <div class="card h-100 border-0 position-relative" style="border-radius: 0;">
+              <span class="badge bg-danger position-absolute top-0 start-0 m-2 txt-cards fw-light">-20%</span>
+              <img src="Pics/pic/ff/ff1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger" style="font-size: 1.1rem;">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Regular Floral Mini Dresses</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=14" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/gg/gg1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Mexi Dresses</p>
+              </div>
+            </div>
+          </a>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=15" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/hh/hh1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Mini Dresses</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=16" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/ii/ii1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Party-Maxi Pleats Dresses</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=17" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/jj/jj1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Mini Lace Dresses</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=18" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/kk/kk1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Midi Corset Dresses</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=19" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/q/q3.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Regular Printed T-Shirt</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=20" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/t/t2.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Regular Printed T-Shirt</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=25" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/y/y3.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Regular Printed T-Shirt</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=26" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/z/z1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Regular Printed T-Shirt</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=27" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/pic/aaa/aaa1.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Trai Sport Life Windbreaker</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="data.html?id=28" style="text-decoration: none;">
+            <div class="card h-100 border-0" style="border-radius: 0;">
+              <img src="Pics/pic/pic/bbb/bbb2.jpg" class="card-img-top" alt="Product">
+              <div class="card-body p-2" style="margin-top: 10px; margin-left: 10px; margin-bottom: 10px;">
+                <div class="txt-cards">
+                  <small class="text-danger">US $13.95</small>
+                  <small class="text-muted text-decoration-line-through">US $15.95</small>
+                  <i class="bi bi-heart text-danger" style="float: right; margin-right: 10px;"></i>
+                </div>
+                <p class="small mt-2 mb-0" style="margin-bottom: 10px;">Long Slim Skirt</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Navigation buttons -->
+      <div class="swiper-button-next swiper-button-next::after fw-bold"
+        style="color: white; padding: 25px; background-color: rgba(0, 0, 0, 0.405); border-radius: 50%;"></div>
+      <div class="swiper-button-prev swiper-button-prev::after fw-bold"
+        style="color: white; padding: 25px; background-color: rgba(0, 0, 0, 0.405); border-radius: 50%;"></div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <a href="#" id="backToTopBtn" class="btn btn-primary position-fixed bottom-0 end-0 m-3"
+    style="z-index: 1000; border-radius: 50%; width: 50px; height: 50px; display: flex; justify-content: center; align-items: center; display: none;">
+    <i class="bi bi-chevron-up"></i>
+  </a>
+
+  <script>
+    const backToTopBtn = document.getElementById('backToTopBtn');
+    let lastScrollTop = 0;
+
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      if (currentScroll > lastScrollTop) {
+        backToTopBtn.style.display = 'none'; // Hide button when scrolling down
+      } else {
+        backToTopBtn.style.display = 'flex'; // Show button when scrolling up
+      }
+      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For mobile or negative scrolling
+    });
+  </script>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center text-lg-start mt-5 border-top pt-4">
+    <div class="container text-center text-md-start">
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <h6 class="fw-bold mb-3">ZANDO APP</h6>
+          <img src="Pics/qr_code_app.png" alt="QR Code" class="img-fluid" width="100">
+        </div>
+        <div class="col-md-2 mb-4">
+          <h6 class="fw-bold mb-3">LOYALTY</h6>
+          <p class="small"><i class="bi bi-people-fill me-2"></i>Membership & Benefits</p>
+        </div>
+        <div class="col-md-2 mb-4">
+          <h6 class="fw-bold mb-3">FOLLOW US</h6>
+          <p class="small mb-1"><i class="bi bi-facebook me-2"></i>Facebook</p>
+          <p class="small mb-1"><i class="bi bi-instagram me-2"></i>Instagram</p>
+          <p class="small mb-1"><i class="bi bi-tiktok me-2"></i>TikTok</p>
+          <p class="small mb-1"><i class="bi bi-youtube me-2"></i>Youtube</p>
+        </div>
+        <div class="col-md-2 mb-4">
+          <h6 class="fw-bold mb-3">CUSTOMER SERVICES</h6>
+          <p class="small mb-1"><i class="bi bi-info-circle me-2"></i>Online Exchange Policy</p>
+          <p class="small mb-1"><i class="bi bi-shield-shaded me-2"></i>Privacy Policy</p>
+          <p class="small mb-1"><i class="bi bi-chat-right-dots me-2"></i>FAQ & Guide</p>
+          <p class="small mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Find a Store</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h6 class="fw-bold mb-3">CONTACT US</h6>
+          <p class="small mb-1"><i class="bi bi-envelope me-2"></i>info@zando.com</p>
+          <p class="small mb-1"><i class="bi bi-telephone me-2"></i>+855 081 999 716</p>
+          <p class="small mb-1"><i class="bi bi-telegram me-2"></i>Telegram</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center p-3 small" style="background-color: #f1f1f1;">
+      © 2025 Zando. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="Index.js">
+  </script>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('fullscreenMenu');
+      menu.classList.toggle('d-none');
+    }
+  </script>
+
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel"
+    style="width: 30%;">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="cartOffcanvasLabel">
+        <i class="bi bi-cart me-2"></i>Your Cart
+      </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-body">
+      <div id="cart-items">
+        <p>Your cart items will appear here.</p>
+      </div>
+
+      <div id="cart-total" class="text-end fw-bold fs-5 border-top pt-2 mt-3" style="font-family: sans-serif;">
+        Total: $0.00
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const cartItems = document.getElementById("cart-items");
+      const cartCount = document.getElementById("cart-count");
+      const cartTotal = document.getElementById("cart-total");
+
+      let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+      function updateCartCount() {
+        if (cartCount) {
+          cartCount.textContent = cart.length;
+        }
+      }
+
+      function updateCartTotal() {
+        const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+        cartTotal.textContent = `Total: $${total.toFixed(2)}`;
+      }
+
+      function renderCartItems() {
+        cartItems.innerHTML = "";
+
+        if (cart.length === 0) {
+          cartItems.innerHTML = `<p>Your cart is empty.</p>`;
+          updateCartTotal();
+          return;
+        }
+
+        cart.forEach((item, index) => {
+          const itemDiv = document.createElement("div");
+          itemDiv.classList.add("d-flex", "align-items-center", "mb-3");
+
+          itemDiv.innerHTML = `
+          <div class="d-flex align-items-start w-100">
+            <img src="${item.image}" alt="${item.title}" width="100" class="me-3 rounded border">
+            <div class="flex-grow-1">
+              <h6 class="mb-1">${item.title}</h6>
+              <small class="text-muted d-block">Size: ${item.size}</small>
+              <small class="text-muted d-block">Unit Price: $${item.price.toFixed(2)}</small>
+              <small class="text-muted d-block">Quantity: ${item.quantity}</small>
+              <strong class="d-block mt-1">Total: $${(item.price * item.quantity).toFixed(2)}</strong>
+            </div>
+            <button class="btn btn-sm btn-outline-danger ms-3 remove-btn" data-index="${index}" title="Remove">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+        `;
+
+          cartItems.appendChild(itemDiv);
+        });
+
+        // Remove item event
+        document.querySelectorAll(".remove-btn").forEach(btn => {
+          btn.addEventListener("click", e => {
+            const index = e.currentTarget.getAttribute("data-index");
+            cart.splice(index, 1);
+            localStorage.setItem("cart", JSON.stringify(cart));
+            updateCartCount();
+            renderCartItems(); // re-render and re-calculate total
+          });
+        });
+
+        updateCartTotal(); // update total at end of rendering
+      }
+
+      // Optional: load from data.html if cart is empty
+      if (cart.length === 0) {
+        fetch("data.html")
+          .then(response => response.text())
+          .then(data => {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(data, "text/html");
+            const items = doc.querySelectorAll(".product-item");
+
+            items.forEach(item => {
+              const product = {
+                title: item.querySelector(".product-title").textContent.trim(),
+                image: item.querySelector(".product-image").src,
+                price: parseFloat(item.querySelector(".product-price").textContent.replace("$", "").trim()),
+                size: item.querySelector(".product-size") ? item.querySelector(".product-size").textContent.trim() : "N/A",
+                quantity: 1
+              };
+              cart.push(product);
+            });
+
+            localStorage.setItem("cart", JSON.stringify(cart));
+            updateCartCount();
+            renderCartItems();
+          })
+          .catch(error => console.error("Error loading data.html:", error));
+      } else {
+        updateCartCount();
+        renderCartItems();
+      }
+    });
+  </script>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="authModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <!-- Header with Tabs -->
+        <div class="modal-header">
+          <div class="d-flex w-100 align-items-center">
+            <div class="tab-header active" id="loginTab" onclick="switchTab('login')">LOGIN</div>
+            <div class="tab-header" id="registerTab" onclick="switchTab('register')">REGISTER</div>
+            <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="modal-body">
+          <!-- Login Form -->
+          <form id="loginForm">
+            <div class="mb-3">
+              <label class="input-label">Mobile number</label>
+              <input type="tel" class="form-control" placeholder="Enter phone number" required>
+            </div>
+            <div class="mb-3">
+              <label class="input-label">Password</label>
+              <div class="input-group">
+                <input type="password" class="form-control" id="loginPassword" placeholder="Enter password" required>
+                <button class="btn btn-outline-secondary" type="button"
+                  onclick="togglePassword('loginPassword')">👁</button>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-black w-100 mb-3">LOGIN</button>
+            <div class="text-center mb-2">
+              <a href="#">Forgot your password?</a>
+            </div>
+            <div class="text-center my-2">OR</div>
+            <button type="button" class="btn facebook-btn w-100 mb-3">
+              <i class="bi bi-facebook"></i> Continue with Facebook
+            </button>
+            <div class="text-center">
+              New to ZANDO? <a href="#" onclick="switchTab('register')">Register</a>
+            </div>
+          </form>
+
+          <!-- Register Form -->
+          <form id="registerForm" class="d-none">
+            <div class="mb-3">
+              <label class="input-label d-block mb-2">Gender (Required)</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                <label class="form-check-label" for="male">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                <label class="form-check-label" for="female">Female</label>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Enter first name" required>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Enter last name" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <input type="tel" class="form-control" placeholder="Enter phone number" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Enter email" required>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <select class="form-select" required>
+                  <option selected disabled>Country</option>
+                  <option value="Cambodia">Cambodia</option>
+                </select>
+              </div>
+              <div class="col">
+                <select class="form-select" required>
+                  <option selected disabled>City/province</option>
+                  <option value="Phnom Penh">Phnom Penh</option>
+                  <option value="Banteay Meanchey">Banteay Meanchey</option>
+                  <option value="Battambang">Battambang</option>
+                  <option value="Kampong Cham">Kampong Cham</option>
+                  <option value="Kampong Chhnang">Kampong Chhnang</option>
+                  <option value="Kampong Speu">Kampong Speu</option>
+                  <option value="Kampong Thom">Kampong Thom</option>
+                  <option value="Kampot">Kampot</option>
+                  <option value="Kandal">Kandal</option>
+                  <option value="Koh Kong">Koh Kong</option>
+                  <option value="Kratie">Kratie</option>
+                  <option value="Mondulkiri">Mondulkiri</option>
+                  <option value="Oddar Meanchey">Oddar Meanchey</option>
+                  <option value="Pailin">Pailin</option>
+                  <option value="Preah Sihanouk">Preah Sihanouk</option>
+                  <option value="Preah Vihear">Preah Vihear</option>
+                  <option value="Prey Veng">Prey Veng</option>
+                  <option value="Pursat">Pursat</option>
+                  <option value="Ratanakiri">Ratanakiri</option>
+                  <option value="Siem Reap">Siem Reap</option>
+                  <option value="Stung Treng">Stung Treng</option>
+                  <option value="Svay Rieng">Svay Rieng</option>
+                  <option value="Takeo">Takeo</option>
+                  <option value="Tboung Khmum">Tboung Khmum</option>
+                </select>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-black w-100 mb-3">CREATE ACCOUNT</button>
+            <div class="text-center my-2">OR</div>
+            <button type="button" class="btn facebook-btn w-100 mb-3">
+              <i class="bi bi-facebook"></i> Continue with Facebook
+            </button>
+            <div class="text-center">
+              Already have an account? <a href="#" onclick="switchTab('login')">Login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    function switchTab(tab) {
+      const loginTab = document.getElementById("loginTab");
+      const registerTab = document.getElementById("registerTab");
+      const loginForm = document.getElementById("loginForm");
+      const registerForm = document.getElementById("registerForm");
+
+      if (tab === 'login') {
+        loginTab.classList.add("active");
+        registerTab.classList.remove("active");
+        loginForm.classList.remove("d-none");
+        registerForm.classList.add("d-none");
+      } else {
+        registerTab.classList.add("active");
+        loginTab.classList.remove("active");
+        registerForm.classList.remove("d-none");
+        loginForm.classList.add("d-none");
+      }
+    }
+
+    function togglePassword(id) {
+      const input = document.getElementById(id);
+      input.type = input.type === 'password' ? 'text' : 'password';
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      AOS.init({
+        duration: 1000, // Animation duration in milliseconds
+        once: true, // Whether animation should happen only once
+      });
+    });
+  </script>
+
+</body>
+
+</html>

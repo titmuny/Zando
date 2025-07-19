@@ -1,0 +1,92 @@
+.row1 {
+  display: flex;
+  height: auto;
+  margin-top: 150px;
+}
+.col-lg-3 {
+  display: flex;
+}
+.item-image {
+  width: 100px;
+  margin-left: 150px;
+  /* display: flex; */
+}
+
+.img-css {
+  width: 100%;
+}
+.imgbig {
+  width: 510px;
+  margin-left: 50px;
+}
+.imgbig-css {
+  width: 100%;
+}
+
+.price {
+  color: red;
+}
+.title {
+  margin-left: 50px;
+}
+
+.img-color {
+  display: flex;
+  width: 100px;
+}
+.col img {
+  margin-right: 10px;
+  width: 100px;
+}
+
+.size-btn {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px 5px;
+  border: 1.5px solid #000000;
+  cursor: pointer;
+  width: 50px;
+}
+.size-btn:hover {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  /* color: rgb(0, 0, 0); */
+}
+
+.size-btn:active {
+  opacity: 0.3;
+}
+
+.pro-size-btn-border {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+
+  border: 1.5px solid #000000;
+}
+
+.add-to-cart-btn {
+  border: 2px solid #000000;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  cursor: pointer;
+  width: 90%;
+  transition: all 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.add-to-cart-btn:active {
+  opacity: 0.3;
+}
