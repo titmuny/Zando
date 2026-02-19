@@ -1,0 +1,141 @@
+.product-layout {
+  margin-top: 150px;
+  --gallery-max-width: 560px;
+}
+
+.thumb-col,
+.main-col {
+  display: flex;
+  align-items: stretch;
+}
+
+.thumb-col {
+  max-width: 88px;
+  flex: 0 0 88px;
+}
+
+.thumbs-rail {
+  --thumb-gap: 0.5rem;
+  width: 100%;
+  height: 100%;
+  gap: var(--thumb-gap);
+}
+
+.main-image-box {
+  width: min(100%, var(--gallery-max-width));
+  height: 100%;
+  aspect-ratio: 3 / 4;
+}
+
+.img-css {
+  width: 100%;
+  height: calc((100% - (4 * var(--thumb-gap))) / 5);
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.imgbig-css {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+  .price {
+    color: red;
+  }
+  .title {
+    margin-left: 50px;
+  }
+  
+  .img-color {
+    display: flex;
+    width: 100px;
+  }
+.img-color .col img {
+    margin-right: 10px;
+    width: 100px;
+  }
+  
+  .size-btn {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 10px 5px;
+    border: 1.5px solid #000000;
+    cursor: pointer;
+    width: 50px;
+  }
+  .size-btn:hover {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* color: rgb(0, 0, 0); */
+  }
+  
+  .size-btn:active {
+    opacity: 0.3;
+  }
+  
+  .pro-size-btn-border {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+  
+    border: 1.5px solid #000000;
+  }
+  
+  .add-to-cart-btn {
+    border: 2px solid #000000;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+    width: 90%;
+    transition: all 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+.add-to-cart-btn:active {
+    opacity: 0.3;
+  }
+
+@media (max-width: 991.98px) {
+  .product-layout {
+    margin-top: 100px;
+    --gallery-max-width: 460px;
+  }
+
+  .title {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .product-layout {
+    margin-top: 85px;
+    --gallery-max-width: 330px;
+  }
+
+  .thumb-col {
+    max-width: 72px;
+    flex-basis: 72px;
+  }
+
+  .title {
+    margin-top: 1.25rem;
+  }
+
+  .add-to-cart-btn {
+    width: 100%;
+  }
+}
